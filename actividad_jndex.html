@@ -35,8 +35,8 @@ crossorigin="anonymous"></script>
                 <input type="number" name="edad"  id="edad" class="form-control" placeholder="" required min="1">
               </div>
               <div class="mb-3">
-                    <label for="genero" class="form-label">Genero</label>
-                    <select name= "genero" id="genero" class="form-select">
+                    <label for="genero" class="form-label">Genero:</label>
+                    <select name= "genero" id="genero" class="form-select" required>
                     <option value="Masculino">Masculino</option>
                     <option value="Femenino">Femenino</option>
                     <option value="Otros">Otros</option>
@@ -45,7 +45,7 @@ crossorigin="anonymous"></script>
 
                     <div class="input-group mb-3">
                         <label for="foto" class="input-group-text">Foto de perfil:</label>
-                        <input type="file" id="foto" class="form-control" accept="image/*">
+                        <input type="file" id="foto" class="form-control" accept="image/*" required>
                     
            
                     
@@ -72,7 +72,7 @@ crossorigin="anonymous"></script>
                     <legend>Datos Adicionales</legend>
                     <div class="input-group">
                         <span for="direccion" class="input-group-text">Direccion</span>
-                        <textarea id="direccion" class="form-control" aria-label="With textarea"></textarea>
+                        <textarea id="direccion" class="form-control" aria-label="With textarea" required></textarea>
                     </div>
                     <div class="mb-3">
                         <label for="fecha" class="form-label">Fecha Nacimiento:</label>
